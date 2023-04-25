@@ -4,11 +4,13 @@ All made possible by: https://github.com/tomstorey/m68k_bare_metal
 * Install gcc-m68k (`sudo apt install gcc-m68k-linux-gnu`)
 * Install srecord package (`sudo apt install srecord`)
 
-* Run `make crt` from 3b1firm directory
+* Build **libmetal-68010.a**: run `make` from *libmetal* directory
 
-* Run `make` from 3b1firm directory?
+* Run `make crt` from *3b1firm* directory
 
-`hack-14c.rom` and `hack-15c.rom` should be created if all goes well.
+* Run `make` from *3b1firm* directory
+
+**hack-14c.rom** and **hack-15c.rom** should be created if all goes well.
 
 ## To use with FreeBee emulator
 
@@ -22,4 +24,10 @@ Edit `.freebee.toml` to use custom hack rom files:
 ```
 
 Run `freebee`
+
+## To use on real hardware
+UNIX PC uses two 27C64 EPROMs (2x8KB). BUT the hardware allegedly supports 27C128 so 2x16KB should be possible.
+
+Alternative EEPROMs to try?: Winbond W27C512, 28C256
+
 
