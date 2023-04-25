@@ -1,4 +1,9 @@
+# Custom 3B1 firmware ROM
+* See 3b1firm folder
 
+
+
+# Tom's original README follows:
 # Bare Metal m68k Cross Compiler "Toolchain"
 - [Bare Metal m68k Cross Compiler "Toolchain"](#bare-metal-m68k-cross-compiler--toolchain-)
   * [Motivation](#motivation)
