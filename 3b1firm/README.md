@@ -6,9 +6,7 @@ All made possible by: https://github.com/tomstorey/m68k_bare_metal
 
 * Build **libmetal-68010.a**: run `make` from *libmetal* directory
 
-* Run `make crt` from *3b1firm* directory
-
-* Run `make` from *3b1firm* directory
+* Run `make all` from *3b1firm* directory
 
 **hack-14c.rom** and **hack-15c.rom** should be created if all goes well.
 
